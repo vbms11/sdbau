@@ -1,0 +1,14 @@
+<table>
+	<name></name>
+	<description></description>
+	<column> 
+		<autoIncrement/>
+		<name></name>
+		<label></label>
+		<description></description>
+		<editor></editor>
+		<type></type>
+		<length></length>
+		<null/>
+	</column>
+</table>

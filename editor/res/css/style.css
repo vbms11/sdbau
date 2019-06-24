@@ -1,0 +1,358 @@
+
+
+
+
+
+/* common element styles */
+
+div {
+    zoom:1;
+}
+
+body {
+    font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+    font-size: 14px;
+}
+
+.gradBackground {
+    background: url('../img/common/grad_vert.gif') repeat-x white;
+}
+
+/* forms */
+
+form label {
+    float: right;
+}
+
+form input, form textarea, form select {
+    border: 1px solid gray;
+}
+
+button {
+    border: 1px solid gray;
+    background: url('../img/common/grad_vert.gif');
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+.textbox {
+    width: 100%;
+}
+
+hr {
+    border: 0px none;
+    padding: 0px;
+    color: silver;
+    background-color: grey;
+    height: 1px;
+}
+
+.clear {
+    clear: both;
+}
+
+.hiddenFieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+/* common modifiers */
+
+.expand {
+    width:100%;
+}
+.contract {
+    width: 1%;
+}
+.nowrap {
+    white-space:nowrap;
+}
+.wrap {
+    white-space: normal;
+}
+.alignRight {
+    text-align: right;
+}
+.alignLeft {
+    text-align: left;
+}
+.alignTop {
+	vertical-align: top;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+
+.formTable {
+    width: 100%;
+}
+.formTable td {
+    width: 99%;
+    vertical-align: top;
+}
+.formTable td:first-child {
+    width: 1%;
+    white-space: nowrap;
+}
+.formTable input, .formTable select, .formTable textarea, .formTable .ui-spinner {
+    width: 99%;
+}
+.formTable input[type="checkbox"] {
+    width: 1%;
+}
+.formTable select[multiple="multiple"] {
+    width: 500px;
+}
+
+
+img {
+    border: 0px none;
+}
+.imageLink {
+    border: 0px none;
+}
+a img {
+    border: 0px none;
+}
+
+.toolButtonSpacinng {
+    float: right;
+    margin-left: 3px;
+}
+.toolButtonDiv {
+    height: 26px;
+    text-align: right;
+}
+
+.infoMessage_background {
+    border: 1px solid silver;
+    font-weight: normal;
+}
+.infoMessage_info {
+    background-image:url('../img/info.png');
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    padding: 10px 10px 10px 50px;
+    min-height: 30px;
+}
+.infoMessage_warning {
+
+}
+.infoMessage_error {
+
+}
+.multiselect {
+    height: 200px;
+    width: 500px;
+}
+
+/* module */
+
+.vcms_area {
+	min-height: 20px;
+}
+
+.vcms_area_show_border {
+}
+
+.vcms_module {
+	padding: 1px;
+}
+
+.vcms_module_show_border {
+    border: 1px solid silver;
+    padding: 0px;
+}
+
+.vcms_module_show_move_border {
+    border: 1px solid red;
+    padding: 0px;
+}
+
+/* style */
+
+.shadow {
+    -moz-box-shadow:    0 0 3px 1px #bbb;
+    -webkit-box-shadow: 0 0 3px 1px #bbb;
+    box-shadow:         0 0 3px 1px #bbb;
+}
+
+.validateTips {
+    color: red;
+}
+
+/* notifications */
+
+.notificationsBox {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: auto;
+    height: auto;
+}
+.notification {
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 5px;
+}
+
+
+
+
+
+/* menu */
+
+.menuSmall {
+    
+}
+.menuSmall div {
+    display: inline;
+    text-align: right;
+}
+.menuSmall a {
+    height: 20px;
+}
+.menuSmall a:hover {
+}
+
+.menuLarge {
+    
+}
+.menuLarge div {
+    display: inline;
+    text-align: right;
+}
+.menuLarge a {
+    height: 20px;
+}
+.menuLarge a:hover {
+}
+
+
+
+
+
+
+body {
+    padding:0px;
+    margin:0px;
+}    
+.frameDiv {
+    min-width: 700px;
+    margin: 120px 10px 0px 10px;
+}
+.topAreaDiv {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+}
+.topMenuDiv {
+    margin: 0px 10px 0px 10px;
+}
+.topMenuMarginDiv {
+    float: right;
+}
+.headerDiv {
+    clear: both;
+    height: 50px;
+    margin: 10px 0px 0px 0px;
+}
+.headerMenuDiv {
+    min-height: 30px;
+    margin: 10px 0px 0px 0px;
+}
+.headerMenuMarginDiv {
+    margin:10px;
+}
+.bodyDiv {
+    min-height: 200px;
+    margin: 10px 0px 0px 0px;
+}
+.bodyMarginDiv {
+    margin:10px;
+}
+.bodyDivLeftMargin {
+    margin-left: 210px;
+}
+.bodyDivRightMargin {
+    margin-right: 375px;
+}
+.bodyRightDiv {
+    min-height: 200px;
+    width: 365px;
+    float: right;
+    margin: 10px 0px 0px 0px;
+}
+.bodyRightMarginDiv {
+    margin:10px;
+}
+.bodyLeftDiv {
+    min-height: 200px;
+    width: 200px;
+    float: left;
+    margin: 10px 0px 0px 0px;
+}
+.bodyLeftMarginDiv {
+    margin:10px;
+}
+.footerMenuDiv {
+    clear: both;
+    min-height: 30px;
+    margin: 10px 0px 10px 0px;
+}
+.footerMenuMarginDiv {
+    margin:10px;
+}
+.floatContainerDiv {
+    float:left;
+    width:100%;
+}
+
+
+
+.divTable {
+    display: table;
+}
+.divTable div {
+    display: table-row;
+    padding-top: 5px;
+}
+.divTable div:first-child {
+    display: table-row;
+    padding-top: 0px;
+}
+.divTable div div, 
+.divTable div input,
+.divTable div textarea {
+    display: table-cell;
+    width: 99%;
+}
+.divTable div label:after {
+    content: ": ";
+    width: 1%;
+}
+
+.floatRight {
+    float: right;
+}
+
+
+.shadowInset {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.gradient {
+    
+}
