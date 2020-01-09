@@ -1,13 +1,13 @@
-# sdbau
-
            .______.                 
   ______ __| _/\_ |__ _____   __ __ 
  /  ___// __ |  | __ \\__  \ |  |  \
  \___ \/ /_/ |  | \_\ \/ __ \|  |  /
 /____  >____ |  |___  (____  /____/ 
      \/     \/      \/     \/       
+     
+a simple database abstraction utility by vbms
 
-a clustering capeable database abstraction layer that can generate model objects from an existing database.
+a clustering capeable database abstraction layer with a simple user interface. it can generate model objects from an existing database schema. the user interface can make feilds multi language, define forign keys and generate php objects for use with the sdk part.
 
 sdk features
 
